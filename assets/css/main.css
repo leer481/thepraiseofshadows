@@ -1,0 +1,237 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+   @font-face {
+	font-family: RecifeRegular;
+	src: url(RecifeRegular.woff);
+}
+
+.light-background {
+    background-color: #faeee1;
+    height: 100%;
+    width: 100%;
+}
+
+.dark-background {
+    background-color: rgb(53, 53, 53);
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    margin-right: 15%;
+}
+
+#darkmode {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid white;
+    position: fixed;
+    position: -webkit-fixed;
+    top: 125px;
+    right: 9%;
+    z-index: 2;
+
+}
+
+#lightmode {
+    width: 50px;
+    height: 50px;
+    background-color: #faeee1;
+    border: 2px solid rgb(53, 53, 53);
+    position: fixed;
+    position: -webkit-fixed;
+    right: 9%;
+    z-index: 2;
+    margin-top: 70px;
+}
+
+.header {
+    position: relative;
+    top: 80px;
+}
+
+#title {
+    color: rgb(53, 53, 53);
+    font-family: RecifeRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 20%;
+    background-color: transparent;
+}
+
+#subtext {
+    color: rgb(53, 53, 53);
+    font-family: RecifeRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 20%;
+    background-color: transparent;
+}
+
+.text {
+    top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: RecifeRegular;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 70px;
+    position: relative;
+    background-color: transparent;
+}
+
+.light {
+    color: rgb(53, 53, 53);
+}
+
+.dark {
+    color: #faeee1;
+}
+
+/* mobile size */
+@media only screen and (min-width: 0px) {
+
+    .text {
+        font-size: 17px;
+        line-height: 40px;
+        margin-left: 7%;
+        margin-right: 19%;
+        padding-top: 13vh;
+    }
+
+    #title {
+        margin-left: 7%;
+        margin-right: 10%;
+        font-size: 2.3em;
+    }
+
+    #subtext {
+        font-size: 2em;
+        margin-left: 7%;
+    }
+
+    #lightmode {
+        width: 40px;
+        height: 40px;
+        margin-top: 80px;
+        right: 1%;
+    }
+
+    #darkmode {
+        width: 40px;
+        height: 40px;
+        right: 1%;
+    }
+}
+
+/* tablet size */
+@media only screen and (min-width: 768px) {
+
+    .text {
+        font-size: 17px;
+        line-height: 40px;
+        margin-left: 10%;
+        margin-right: 19%;
+        padding-top: 13vh;
+    }
+
+    #title {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 2.3em;
+    }
+
+    #subtext {
+        font-size: 2em;
+        margin-left: 10%;
+    }
+
+    #lightmode {
+        width: 40px;
+        height: 40px;
+        margin-top: 80px;
+    }
+
+    #darkmode {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* medium desktop */
+@media only screen and (min-width: 992px) {
+    
+    .text {
+        font-size: 20px;
+        line-height: 40px;
+        margin-left: 12%;
+        margin-right: 21%;
+        padding-top: 14vh;
+    }
+
+    #title {
+        margin-left: 12%;
+        margin-right: 13%;
+        font-size: 2.8em;
+    }
+
+    #subtext {
+        font-size: 2em;
+        margin-left: 12%;
+    }
+
+    #lightmode {
+        width: 40px;
+        height: 40px;
+        margin-top: 80px;
+    }
+
+    #darkmode {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* large desktop & up */
+@media only screen and (min-width: 1200px) {
+    
+    .text {
+        font-size: 22px;
+        line-height: 55px;
+        margin-left: 20%;
+        margin-right: 28%;
+        padding-top: 20vh;
+        padding-top: 15vh;
+    }
+
+    #title {
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 3em;
+    }
+
+    #subtext {
+        font-size: 1.8em;
+        text-align: left;
+        margin-left: 20%;
+    }
+
+    #lightmode {
+        width: 50px;
+        height: 50px;
+        margin-top: 70px;
+    }
+
+    #darkmode {
+        width: 50px;
+        height: 50px;
+    }
+}
