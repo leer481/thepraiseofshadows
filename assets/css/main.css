@@ -102,33 +102,34 @@ button {
     .text {
         font-size: 17px;
         line-height: 40px;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-right: 19%;
         padding-top: 13vh;
     }
 
     #title {
-        margin-left: 7%;
+        margin-left: 5%;
         margin-right: 10%;
-        font-size: 2.3em;
+        font-size: 2em;
     }
 
     #subtext {
-        font-size: 2em;
-        margin-left: 7%;
+        font-size: 1.8em;
+        margin-left: 5%;
+        margin-right: 10%;
     }
 
     #lightmode {
         width: 40px;
         height: 40px;
         margin-top: 80px;
-        right: 1%;
+        right: 0%;
     }
 
     #darkmode {
         width: 40px;
         height: 40px;
-        right: 1%;
+        right: 0%;
     }
 }
 
